@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_lavender.mk
+    $(LOCAL_DIR)/lineage_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_lavender-user \
-    du_lavender-userdebug \
-    du_lavender-eng
+    lineage_lavender-user \
+    lineage_lavender-userdebug \
+    lineage_lavender-eng
