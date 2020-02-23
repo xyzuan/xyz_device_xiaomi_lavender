@@ -277,6 +277,10 @@ vendor/lib/libactuator_lavender_ov12a10_sunny_ii_dw9714.so
 vendor/lib/libactuator_lavender_s5kgm1_ofilm_i_dw9800.so
 vendor/lib/libactuator_lavender_s5kgm1_sunny_ii_dw9800.so
 
+# Camera libstdc
+vendor/lib/libstdc++.so
+vendor/lib64/libstdc++.so
+
 # Camera chromatix
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
