@@ -455,6 +455,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# XiaomiParts
+# Corvus Parts
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    CorvusParts
