@@ -13,10 +13,6 @@ ro.config.media_vol_steps=25
 ro.vendor.audio.sdk.fluencetype=fluence
 ro.vendor.audio.sdk.ssr=false
 ro.vendor.audio.sos=true
-ro.vendor.audio.soundfx.usb=true
-ro.vendor.audio.soundtrigger.lowpower=false
-ro.vendor.audio.soundtrigger=xiaomi
-ro.vendor.audio.voice.volume.boost=manual
 vendor.audio.adm.buffering.ms=6
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
@@ -78,7 +74,7 @@ vendor.audio.feature.usb_offload_burst_mode.enable=false
 vendor.audio.feature.usb_offload_sidetone_volume.enable=false
 vendor.audio.feature.deepbuffer_as_primary.enable=false
 vendor.audio.feature.vbat.enable=true
-vendor.audio.feature.wsa.enable=true
+vendor.audio.feature.wsa.enable=false
 vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.snd_mon.enable=true
 
@@ -138,6 +134,8 @@ persist.vendor.camera.exif.make=Xiaomi
 debug.media.codec2=2
 
 # Display Grapicht
+debug.cpurend.vsync=false
+persist.hwc.enable_vds=1
 ro.opengles.version=196610
 ro.sf.lcd_density=403
 ro.vendor.display.cabl=0
