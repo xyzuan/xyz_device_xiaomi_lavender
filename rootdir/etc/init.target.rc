@@ -141,7 +141,6 @@ on property:sys.shutdown.requested=*
     stop vendor.per_proxy
 
 service vendor.qseecomd /vendor/bin/qseecomd
-   shutdown critical
    class core
    user root
    group root
